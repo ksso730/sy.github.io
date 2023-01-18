@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-bee",
+  "name": "sy.io",
   "private": true,
-  "description": "Gatsby blog starter template",
+  "description": "Suyeon's dev note.",
   "version": "0.1.0",
-  "author": "Jbee[JaeYeopHan]<ljyhanll@gmail.com>",
+  "author": "ksso730[SuyeonKim]<ksso7300@gmail.com>",
   "bugs": {
-    "url": "https://github.com/JaeYeopHan/gatsby-starter-bee/issues"
+    "url": "https://github.com/ksso730/sy.github.io/issues"
   },
   "dependencies": {
     "gatsby": "^2.2.8",
