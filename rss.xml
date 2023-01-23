@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Syankkim.io]]></title><description><![CDATA[About Syankkim's Dev Story]]></description><link>https://sy.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 23 Jan 2023 14:35:55 GMT</lastBuildDate><item><title><![CDATA[⚙️ [운영체제] 기능,목적,구조]]></title><description><![CDATA[운영체제가 뭔가요? 운영체제란 각종 하드웨어적인 자원, 소프트웨어적인 자원을 효율적으로 사용할 수 있도록 제어해주는 관리 시스템 (Operating System…]]></description><link>https://sy.github.io/OS/운영체제-기능목적구조/</link><guid isPermaLink="false">https://sy.github.io/OS/운영체제-기능목적구조/</guid><pubDate>Wed, 18 Jan 2023 22:01:37 GMT</pubDate><content:encoded>&lt;br/&gt;
+&lt;h2 id=&quot;운영체제가-뭔가요&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EA%B0%80-%EB%AD%94%EA%B0%80%EC%9A%94&quot; aria-label=&quot;운영체제가 뭔가요 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;운영체제가 뭔가요?&lt;/h2&gt;
+&lt;p&gt;운영체제란 각종 하드웨어적인 자원, 소프트웨어적인 자원을 효율적으로 사용할 수 있도록 제어해주는 &lt;strong&gt;관리 시스템 (Operating System)&lt;/strong&gt; 입니다.
+사용자에게 편리함을 제공하고 시스템의 생산성을 높여줍니다.
+모든 하드웨어, 소프트웨어를 관리하는 &lt;code class=&quot;language-text&quot;&gt;실행 관리자&lt;/code&gt; 라고 정의됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;편리함&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;관리시스템&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;생산성증대&lt;/code&gt; &lt;br/&gt;&lt;/p&gt;
+&lt;h2 id=&quot;운영체제-기능&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EA%B8%B0%EB%8A%A5&quot; aria-label=&quot;운영체제 기능 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;운영체제 기능&lt;/h2&gt;
+&lt;p&gt;컴퓨터를 편하고 효율적으로 사용할 수 있도록 도움을 줍니다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;CPU관리&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;메모리관리&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;IO장치&lt;/code&gt; &lt;br/&gt;&lt;/p&gt;
+&lt;h2 id=&quot;운영체제-목적&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EB%AA%A9%EC%A0%81&quot; aria-label=&quot;운영체제 목적 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;운영체제 목적&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;처리능력의 향상 : 일정시간내 처리량&lt;/li&gt;
+&lt;li&gt;응답시간 최소화&lt;/li&gt;
+&lt;li&gt;사용 가능도의 향상 : 얼마나빠르게&lt;/li&gt;
+&lt;li&gt;신뢰도의 향상 : 정확성&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;처리능력&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;응답시간&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;사용가능도&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;신뢰도&lt;/code&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h2 id=&quot;운영체제-구조&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EA%B5%AC%EC%A1%B0&quot; aria-label=&quot;운영체제 구조 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;운영체제 구조&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;제어 프로그램&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;감시 프로그램 (supervisor) : 시스템 전체의 동작 상태 감독, 지원.&lt;/li&gt;
+&lt;li&gt;작업 관리 프로그램 : 자동적 작업 이행을 위한 준비와 처리&lt;/li&gt;
+&lt;li&gt;데이터 관리 프로그램 : 데이터 전송, 입출력 데이터 연결, 파일조작 및 처리&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;처리 프로그램&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;언어 번역 프로그램&lt;/li&gt;
+&lt;li&gt;서비스 프로그램&lt;/li&gt;
+&lt;li&gt;문제 처리 프로그램&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;제어&lt;/code&gt; &lt;code class=&quot;language-text&quot;&gt;처리&lt;/code&gt;&lt;/p&gt;
+&lt;br/&gt;
+&lt;p&gt;&lt;em&gt;※ 이 글은 아래 블로그 글을 바탕으로 혼자 공부하며 간단히 필기해본 내용입니다.
+좋은 자료를 공유해주신 블로그님께 감사드립니다.&lt;/em&gt;
+🔗&lt;a href=&quot;https://jhnyang.tistory.com/16&quot;&gt;블로그 주소&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[about]]></title><description><![CDATA[Your name Thank you for reading my resume. If you want to contact me, Please send me an email.]]></description><link>https://sy.github.io/resume-en/</link><guid isPermaLink="false">https://sy.github.io/resume-en/</guid><pubDate>Sun, 27 Jan 2019 16:21:13 GMT</pubDate><content:encoded>&lt;h1 id=&quot;your-name&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#your-name&quot; aria-label=&quot;your name permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Your name&lt;/h1&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;p&gt;&lt;em&gt;Thank you for reading my resume. If you want to contact me, Please send me an email.&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;</content:encoded></item></channel></rss>
