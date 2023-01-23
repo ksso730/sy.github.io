@@ -1,9 +1,9 @@
 module.exports = {
-  title: `Syankkim.io`,
+  title: `어서오세요, 샨낌의 서재입니다.`,
   description: `About Syankkim's Dev Story`,
   author: `Syankkim`,
   introduction: `[Syankkim Blog] 백엔드 엔지니어 샨낌`,
-  siteUrl: `https://sy.github.io`, // Your blog site url
+  siteUrl: `https://syankkim.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: ``, // Your GitHub account

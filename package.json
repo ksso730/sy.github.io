@@ -3,9 +3,9 @@
   "private": true,
   "description": "Suyeon's dev note.",
   "version": "0.1.0",
-  "author": "ksso730[SuyeonKim]<ksso7300@gmail.com>",
+  "author": "syankkim[SuyeonKim]<ksso7300@gmail.com>",
   "bugs": {
-    "url": "https://github.com/ksso730/sy.github.io/issues"
+    "url": "https://github.com/syankkim/syankkim.github.io/issues"
   },
   "dependencies": {
     "gatsby": "^2.2.8",
@@ -69,7 +69,7 @@
     "recursive-readdir": "^2.2.2",
     "signale": "^1.3.0"
   },
-  "homepage": "https://ksso730.github.io/sy.github.io/",
+  "homepage": "https://syankkim.github.io/",
   "keywords": [
     "gatsby"
   ],
@@ -77,7 +77,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ksso730"
+    "url": "git+https://github.com/syankkim"
   },
   "scripts": {
     "post": "gatsby-post-gen",
