@@ -10,7 +10,9 @@ exports.createPages = ({ graphql, actions }) => {
     `
       {
         allMarkdownRemark(
-          filter: { frontmatter: { category: { ne: null }, draft: { eq: false } } }
+          filter: {
+            frontmatter: { category: { ne: null }, draft: { eq: false } }
+          }
           sort: { fields: [frontmatter___date], order: DESC }
           limit: 1000
         ) {
@@ -50,8 +52,8 @@ exports.createPages = ({ graphql, actions }) => {
     }
 
     // Create blog posts pages.
-    const posts = result.data.allMarkdownRemark.edges;
-    posts.forEach((post) => {
+    const posts = result.data.allMarkdownRemark.edges
+    posts.forEach(post => {
       createPage({
         path: post.node.fields.slug,
         component: blogPostTemplate,
@@ -77,4 +79,15 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
   }
+}
+const FilterWarningsPlugin = require('webpack-filter-warnings-plugin')
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    plugins: [
+      new FilterWarningsPlugin({
+        exclude: /mini-css-extract-plugin[^]*Conflicting order. Following module has been added:/,
+      }),
+    ],
+  })
 }
