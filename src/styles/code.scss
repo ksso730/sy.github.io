@@ -66,15 +66,6 @@ pre[class*='language-'] {
   background: #212121;
 }
 
-/* Inline code */
-:not(pre) > code[class*='language-'] {
-  padding: 0.1em 0.6em;
-  border-radius: 0.2em;
-  white-space: normal;
-  background: $inline-dimmed-color;
-  color: $inline-text-color;
-}
-
 .token.comment,
 .token.block-comment,
 .token.prolog,

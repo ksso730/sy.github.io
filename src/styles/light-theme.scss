@@ -1,4 +1,15 @@
 body.light {
+  // Inline code
+  :not(pre) > code[class*='language-'] {
+    padding: 0.1em 0.6em;
+    margin: 0 1px;
+    border-radius: 0.2em;
+    white-space: normal;
+    background: $light-inline-dimmed-color;
+    color: $light-inline-text-color;
+    font-weight: 500;
+  }
+
   background-color: $light-background-color;
   text-shadow: $light-text-shadow;
 

@@ -3,6 +3,17 @@ body.dark {
   text-shadow: $dark-text-shadow;
   color: $dark-light-font-color;
 
+  // Inline code
+  :not(pre) > code[class*='language-'] {
+    padding: 0.1em 0.6em;
+    margin: 0 1px;
+    border-radius: 0.2em;
+    white-space: normal;
+    background: $dark-inline-dimmed-color;
+    color: $dark-inline-text-color;
+    font-weight: 500;
+  }
+
   // home
   .home-header {
     color: $dark-light-font-color;
