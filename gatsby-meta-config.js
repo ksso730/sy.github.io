@@ -2,7 +2,7 @@ module.exports = {
   title: `어서오세요, 샨낌의 서재입니다.`,
   description: `About Syankkim's Dev Story`,
   author: `Syankkim`,
-  introduction: `I'm a back-end engineer, and I work for Lawandcompany`,
+  introduction: `I'm a back-end engineer 👜`,
   siteUrl: `https://syankkim.github.io`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
@@ -22,7 +22,7 @@ module.exports = {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'suyans730',
+    buyMeACoffeeId: 'ksso7300',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
