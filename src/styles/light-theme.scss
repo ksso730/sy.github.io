@@ -80,4 +80,9 @@ body.light {
       color: $navigator-text-color;
     }
   }
+
+  blockquote {
+    border-left: 4px solid #9f70ae;
+    color: $light-blockquote-text-color;
+  }
 }
